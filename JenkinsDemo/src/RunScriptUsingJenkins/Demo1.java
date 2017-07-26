@@ -29,7 +29,8 @@ public class Demo1 {
 			 * "C:\\Users\\TRACLabs\\Downloads\\IEDriverServer_x64_2.53.1\\IEDriverServer.exe"
 			 * ); driver = new InternetExplorerDriver(); }
 			 */
-
+//		added a comment to see changes reflected in central repo
+		
 		String baseUrl = "https://prideview-core.traclabs.com";
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
