@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17659" started-at="2017-07-26T22:06:02Z" finished-at="2017-07-26T22:06:19Z">
+  <suite name="Default suite" duration-ms="24076" started-at="2017-09-26T21:14:12Z" finished-at="2017-09-26T21:14:36Z">
     <groups>
     </groups>
-    <test name="FirfoxTest" duration-ms="10001" started-at="2017-07-26T22:06:02Z" finished-at="2017-07-26T22:06:12Z">
-      <class name="RunScriptUsingJenkins.Demo1">
-        <test-method status="PASS" signature="cbtesting(java.lang.String)[pri:0, instance:RunScriptUsingJenkins.Demo1@7a92922]" name="cbtesting" duration-ms="9992" started-at="2017-07-26T17:06:02Z" finished-at="2017-07-26T17:06:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="24076" started-at="2017-09-26T21:14:12Z" finished-at="2017-09-26T21:14:36Z">
+      <class name="RunScriptUsingJenkins.ArrayListOfCheckBoxWebElement">
+        <test-method status="PASS" signature="openBrs()[pri:0, instance:RunScriptUsingJenkins.ArrayListOfCheckBoxWebElement@7c16905e]" name="openBrs" is-config="true" duration-ms="11071" started-at="2017-09-26T16:14:12Z" finished-at="2017-09-26T16:14:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cbtesting -->
-      </class> <!-- RunScriptUsingJenkins.Demo1 -->
-    </test> <!-- FirfoxTest -->
-    <test name="ChomeTest" duration-ms="7622" started-at="2017-07-26T22:06:12Z" finished-at="2017-07-26T22:06:19Z">
-      <class name="RunScriptUsingJenkins.Demo1">
-        <test-method status="PASS" signature="cbtesting(java.lang.String)[pri:0, instance:RunScriptUsingJenkins.Demo1@2b80d80f]" name="cbtesting" duration-ms="7621" started-at="2017-07-26T17:06:12Z" finished-at="2017-07-26T17:06:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openBrs -->
+        <test-method status="PASS" signature="runProcedure()[pri:0, instance:RunScriptUsingJenkins.ArrayListOfCheckBoxWebElement@7c16905e]" name="runProcedure" duration-ms="12995" started-at="2017-09-26T16:14:23Z" finished-at="2017-09-26T16:14:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cbtesting -->
-      </class> <!-- RunScriptUsingJenkins.Demo1 -->
-    </test> <!-- ChomeTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- runProcedure -->
+      </class> <!-- RunScriptUsingJenkins.ArrayListOfCheckBoxWebElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

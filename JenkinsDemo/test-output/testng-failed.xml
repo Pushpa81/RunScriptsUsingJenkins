@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="browser" value="Chrome"/>
-  <test name="FirefoxTest(failed)">
-    <parameter name="browser" value="Firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="RunScriptUsingJenkins.MultipleBrowserTest">
+      <class name="RunScriptUsingJenkins.EndToEndTest">
         <methods>
-          <include name="multiplebrs" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="VerifyTitle"/>
+          <include name="LoginTest"/>
+          <include name="LogoutTest"/>
         </methods>
-      </class> <!-- RunScriptUsingJenkins.MultipleBrowserTest -->
+      </class> <!-- RunScriptUsingJenkins.EndToEndTest -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
-  <test name="ChromeTest(failed)">
-    <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="RunScriptUsingJenkins.MultipleBrowserTest">
-        <methods>
-          <include name="multiplebrs" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- RunScriptUsingJenkins.MultipleBrowserTest -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

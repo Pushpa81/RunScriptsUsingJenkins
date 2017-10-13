@@ -5,25 +5,25 @@
   <test name="FirefoxTest(failed)">
     <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="RunScriptUsingJenkins.MultipleBrowserTest">
+      <class name="RunScriptUsingJenkins.EndToEndTest">
         <methods>
-          <include name="multiplebrs" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="openMultipleBrs"/>
+          <include name="openMultipleBrs"/>
         </methods>
-      </class> <!-- RunScriptUsingJenkins.MultipleBrowserTest -->
+      </class> <!-- RunScriptUsingJenkins.EndToEndTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
   <test name="ChromeTest(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="RunScriptUsingJenkins.MultipleBrowserTest">
+      <class name="RunScriptUsingJenkins.EndToEndTest">
         <methods>
-          <include name="multiplebrs" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="LoginTest"/>
+          <include name="openMultipleBrs"/>
+          <include name="openMultipleBrs"/>
         </methods>
-      </class> <!-- RunScriptUsingJenkins.MultipleBrowserTest -->
+      </class> <!-- RunScriptUsingJenkins.EndToEndTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
