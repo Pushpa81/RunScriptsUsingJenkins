@@ -26,7 +26,7 @@ public class TestPush {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
-
+//  added a comment in TestPush
 	@Test
 
 	public void InvalidTest() throws IOException {
